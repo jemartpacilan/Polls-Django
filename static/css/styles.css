@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|IM+Fell+English');
+
+html, body, ul, h1{
+  margin:0;
+  padding: 0;
+}
+ html{
+   height: 100%;
+ }
+body{
+  background-color: #1d6a96;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 0 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #d1dddb;
+  cursor: pointer;
+}
+
+h1{
+  color: #d1dddb;
+  font-family: 'IM Fell English', serif;
+}
+
+.navbar_container{
+  background-color: #283b42;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 60px;
+}
+
+.navbar_left_contents ul{
+  display: flex;
+}
+
+.container{
+  background-color: #086f9f;
+  height: 50%;
+  margin:50px 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  display: flex;
+  color: white
+}
+
+.container_sub{
+
+}
+.add_poll a{
+  justify-content: flex-end;
+}
